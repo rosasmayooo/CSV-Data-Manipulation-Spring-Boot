@@ -22,4 +22,20 @@ c. # of records failed
 
 5. Application should be re-runnable, meaning that multiple runs with same input produce the same results.
 
+Summary:
+
+The developer created a spring boot application that consume a csv file then save the valid records to MySQL database. The table has 11 columns including the given headers and an additional unique identifier. The invalid records and statistics are written in a csv and log file, respectively. The data sets are handled using the hibernate properties. Lastly, the application has no multithreading impelmentation.
+
+Steps to Replicate:
+
+1. Clone the repository and import the project in eclipse.
+2. Create ms3Interview schema in MySQL.
+3. Configure the application properties for the username and password of the database connection.
+4. Run the project as spring boot application.
+
+Approach:
+
+The developer created a method to check each record that contains null/empty column. This method has been use to separate the valid and invalid records.
+
+
 

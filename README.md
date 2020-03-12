@@ -24,7 +24,7 @@ c. # of records failed
 
 Summary:
 
-The developer created a spring boot application that consume a csv file then save the valid records to MySQL database. The table has 11 columns including the given headers and an additional unique identifier. The invalid records and statistics are written in a csv and log file, respectively. The data sets are handled using the hibernate properties. Lastly, the application has no multithreading impelmentation.
+The developer created a spring boot application that consume a csv file then save the valid records to MySQL database. The table has 11 columns including the given headers and an additional unique identifier. The invalid records and statistics are written in a csv and log file, respectively. The data sets are handled using the hibernate properties. Lastly, the application has no multithreading implementation.
 
 Steps to Replicate:
 
